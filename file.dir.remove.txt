@@ -1,0 +1,13 @@
+Remove Directory
+Preconditions:
+  - Assume we want to name the directory "cheese"
+Main Success Scenario:
+  1. Run following command in terminal window
+       rmdir cheese
+  2.  [need to complete]
+  3 run following command to see that the directory is gone
+       ls
+Alternatives:
+  2a. See error message because files exist in directory 
+    2a1. Remove files from folder
+    2a2. Go to step 1. 
