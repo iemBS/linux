@@ -1,0 +1,8 @@
+Update Software
+Main Success Scenario:
+  1. Open up a terminal window.
+  2. Run "sudo apt-get upgrade" in terminal window.
+  3. Enter password.
+  4. Look over the list of available updates and decide if you want to go through with the entire upgrade.
+  5. To accept all updates click the 'y' key (no quotes) and hit Enter.
+  6. Watch as the update happens.
