@@ -1,0 +1,10 @@
+https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6
+
+Install Powershell
+Main Success Scenario: 
+  1. open terminal window
+  2. Run the practice run in the terminal window
+       sudo apt-get install -y powershell-preview
+  3. Confirm practice run went well.
+  1. Run following in the terminal window. 
+       sudo apt-get install -y powershell
