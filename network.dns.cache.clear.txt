@@ -1,0 +1,8 @@
+Clear DNS Cache
+Preconditions: 
+  - Ubuntu does not cache DNS by default. 
+  - Assume here that DNS caching is enabled
+Main Success Scenario: 
+  1. [need to complete]
+  
+  .
