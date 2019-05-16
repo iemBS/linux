@@ -1,0 +1,15 @@
+Explain Path References (with examples), guidance from help.ubuntu.com/community/LinuxFilesystemTreeOverview
+- An absolute path name, pointing to what is normally an executable file on an Ubuntu system: 
+    /usr/bin/test
+- An absolute path name, but pointing to a directory instead of a regular file: 
+    /usr/bin/
+- A relative path name, which will point to /usr/bin/test only if the current directory is /usr/: 
+    bin/test
+- A relative path name, which will point to /usr/bin/test if the current directory is any directory in /usr/, for instance /usr/share/: 
+    ../bin/test
+- A path name using the special shortcut ~, which refers to the current user's home directory: 
+    ~/Desktop/
+- Path names can contain almost any character, but some characters, such as space, must be escaped in most software, usually by enclosing the name in quotation marks: 
+    "~/Examples/Experience ubuntu.ogg"
+  or by employing the escape character \: 
+    ~/Examples/Experience\ ubuntu.ogg
