@@ -1,0 +1,3 @@
+
+
+Run "gnome-system-monitor" in terminal window
