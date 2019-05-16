@@ -1,0 +1,6 @@
+
+
+sudo apt-get remove <application_name>
+
+In UI: 
+System > Administration > Synaptic Package Manager
