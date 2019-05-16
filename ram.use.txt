@@ -1,0 +1,3 @@
+ "free -m" to see RAM information in MB
+ 
+ "free -g" to see RAM information in GB
