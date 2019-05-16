@@ -1,0 +1,2 @@
+-- send the list of files in the current folder to be in another file
+ls -l > filename.list
