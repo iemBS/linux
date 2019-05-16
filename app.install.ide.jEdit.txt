@@ -1,0 +1,5 @@
+Install jEdit IDE
+Preconditions:
+  - Need for Java coding
+Main Success Scenario:
+  1. Download from http://www.jedit.org/
