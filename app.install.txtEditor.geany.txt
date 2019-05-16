@@ -1,0 +1,5 @@
+Install Geany Text Editor
+Preconditions: 
+  - Need for Java coding
+Main Success Scenario: 
+  1. Download from https://www.geany.org/Main/HomePage
