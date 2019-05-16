@@ -1,0 +1,19 @@
+Config FireFox Web Browser Security
+Main Success Scenario: 
+  1. Open FireFox browser
+  2. Click menu on top right 
+  3. Choose "Options"
+  4. Choose "Privacy & Security" (lock symbol)
+  5. For "Content Blocking", choose "Strict"
+  6. Choose "Always" for "Send websites a “Do Not Track” signal that you don’t want to be tracked"
+  7. Choose "Never remember history" for "History"
+  8. For "Permissions"
+       - Location > check "Block new requests asking to access your location"
+       - Camera > check "Block new requests asking to access your camera"
+       - Microphone > check "Block new requests asking to access your microphone"
+       - check "Block pop-up windows"
+       - check "Warn you when websites try to install add-ons"
+  9. For "Security", check "Block dangerous and deceptive content"
+  10. For "Certificates"
+        - choose "Ask you every time"
+        - check "Query OCSP responder servers to confirm the current validity of certificates"
