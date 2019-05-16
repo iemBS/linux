@@ -1,0 +1,7 @@
+Install LibreOffice
+Main Success Scenario: 
+  1. sudo apt-get install libreoffice
+Alternatives: 
+  1a. libreOffice already installed
+        sudo add-apt-repository ppa:libreoffice/ppa
+        sudo apt-get update
