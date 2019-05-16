@@ -1,0 +1,21 @@
+Find Files & Dirs changed in a Time Range
+Preconditions: 
+  - Assume focus of files changes in 1th Sep 2016 to 1th Oct 2016 date range
+  - "c" is the inode status change time
+  - "m" uses only file modification time only
+Main Success Scenario: 
+  1. Run in terminal window
+       find -newerct "1 Sep 2016" ! -newerct "1 Oct 2016"
+  2. See results
+Alternatives: 
+  1a. Use only file modification time only
+    1a1. Run in terminal window
+           find -newermt "1 Sep 2016" ! -newermt "1 Oct 2016"
+  1b. Use YYYYMMDD format
+    1b1. Run in terminal window
+           find -newerct "20150901" ! -newerct "20161001"
+  1c. Use YYYY-MM-DD HH:MM:SS format
+    1c1. Run in terminal window (assume 5:30 pm for start & end)
+           find -newerct "20150901 17:30:00" ! -newerct "20161001 17:30:00"
+
+
