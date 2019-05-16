@@ -1,0 +1,5 @@
+Called "System Testing" on Ubuntu. Also called "checkbox"
+
+use the following to install it if it is not already installed
+
+   sudo apt-get install checkbox
