@@ -1,0 +1,10 @@
+Upgrade Specific Software
+Preconditions:
+  - Assuming FireFox browser here
+  - Can run "man apt-get" in terminal window to understand  options
+Main Success Scenario: 
+  1. Open terminal window
+  2. Run "sudo apt-get upgrade firefox" in terminal window
+Alternatives: 
+  1a. Use smart conflict reslution for package dependencies
+    1a1. Run "sudo apt-get dist-upgrade firefox" in terminal window
