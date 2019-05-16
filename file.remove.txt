@@ -1,3 +1,6 @@
 
--- deletes file
+-- delete a specific file
 rm <filename>
+
+-- delete all files in a directory
+rm *
