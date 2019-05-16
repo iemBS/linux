@@ -1,0 +1,2 @@
+-- ls -l lists all the files in the current folder, | sends it to the "more" command, the "more" cmd allows you to scroll
+ls –l | more
