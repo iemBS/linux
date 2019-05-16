@@ -1,0 +1,14 @@
+Install 7zip
+Preconditions: 
+  - Assume downloaded file is "myfile.tar.7z"
+Main Success Scenario: 
+  1. Confirm "p7zip-full" is not already installed
+  2. Run following command to download 7zip file
+       sudo apt-get install p7zip-full
+  3. Go to directory that has the .tar.7z file. 
+  4. Run following command to unzip and untar the file. 
+       7za x myfile.tar.7z tar -xvf myfile.tar
+       
+       
+       
+       
