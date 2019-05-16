@@ -7,7 +7,8 @@ Main Success Scenario:
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install git
-  3. Need to install UI
+  3. Install GitHub UI
+       https://www.gitkraken.com/
   4. Need to configure client git to work with cloud git. 
   
 
