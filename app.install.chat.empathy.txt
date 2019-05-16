@@ -1,0 +1,3 @@
+Install Empathy Chat
+Main Success Scenario:
+  1. Run "sudo apt-get install empathy" in terminal window
