@@ -4,3 +4,6 @@ rm <filename>
 
 -- delete all files in a directory
 rm *
+
+-- remove all files and folders in the current folder that start with the "filename" text. 
+rm –rf filename.*
