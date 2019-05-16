@@ -1,0 +1,2 @@
+-- will show you top part of file and give you option to scroll through
+more <filename>
