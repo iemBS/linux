@@ -1,5 +1,21 @@
-Called "System Testing" on Ubuntu. Also called "checkbox"
+Test Hardware
+Preconditions:
+  - software called "System Testing" in UI
+  - software called "checkbox" on command line
+Main Success Scenario: 
+  1. sudo apt-get install checkbox
+  2. [need to complete]
+Alternatives:
+  1a. "checkbox" not found
+    1a1. Result message returned: 
+      [sudo] password for [user login]:
+      Reading package lists... Done
+      Building dependency tree
+      Reading state information... Done
+      Package checkbox is not available, but is referred to by another package.
+      This may mean that the package is missing, has been obsoleted, or
+      is only available from another source
+      However the following packages replace it:
+        checkbox-ng
 
-use the following to install it if it is not already installed
-
-   sudo apt-get install checkbox
+      E: Package 'checkbox' has no installation candidate
