@@ -1,13 +1,20 @@
 Clean Directories
 Main Success Scenario: 
   1. Remove unneeded downloads in /var/cache/apt/archives
-  2. Remove unneeded log files or reduce log file size
-       /var/log
-  3. Use "fsck" to construct original files from thosefiles in "lost+found"
-  4. Empty trash bin
+  2. See what log files exist
+       sudo du -h /var/log
+  3. Remove unneeded log files or reduce log file size in /var/log
+  4. Use "fsck" to construct original files from thosefiles in "lost+found"
+  5. Display trash files
+       sudo find / -type d -name '*Trash*' | sudo xargs du -h | sort
+  6. Empty trash bin
        ~/.local/share/Trash 
        /root/.local/share/Trash
-  5. Look for back ups gone wrong. 
-       
-       
+  7. Look for back ups gone wrong
        /var/log
+  8. Run below cmd to see space used for package storage
+       du -h /var/cache/apt/
+  9. Remove expired packages in /var/cache/apt/archives and /var/cache/apt/archives/partial that are no longer available for download. 
+    sudo apt-get autoclean
+  10. Remove unneeded dependencies
+       sudo apt-get autoremove
