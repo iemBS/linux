@@ -1,3 +1,20 @@
- "free -m" to see RAM information in MB
- 
- "free -g" to see RAM information in GB
+ See RAM Usage
+ Preconditions: 
+   - Look at RAM usage in GB
+   - Swap is from a hard disk and not RAM. 
+ Main Success Scenario 
+   1. Run "free -g" in terminal window. 
+   2. See result (example below)
+                       total        used        free      shared  buff/cache   available
+        Mem:             23           5          17           0           0          17
+        Swap:            29           0          29
+ Alternatives:
+   1a. See in MB
+     1a1. Run "free -m" in terminal window. 
+     
+     
+     
+Swap Memory explained
+---------------------------------
+A swap file (or swap space or, in Windows NT, a pagefile) is a space on a hard disk used as the virtual memory extension of a computer's real memory (RAM). Having a swap file allows your computer's operating system to pretend that you have more RAM than you actually do.
+   
