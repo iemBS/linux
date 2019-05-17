@@ -1,1 +1,14 @@
-https://help.ubuntu.com/community/EmailClients
+Configure Thunderbird Email Client
+Preconditions:
+  - Thunderbird is installed on Ubunto by default. 
+  - Help to install if needed:
+      https://help.ubuntu.com/community/EmailClients
+      https://support.mozilla.org/en-US/kb/installing-thunderbird-linux
+Main Success Scenario: 
+  1. Open terminal window. 
+  2. See if already installed
+       apt-cache policy "thunderbird"
+  3. See result of that check (like this)
+      thunderbird:
+      Installed: 1:38.5.1+build2-0ubuntu0.15.10.1
+      Candidate: 1:38.5.1+build2-0ubuntu0.15.10.1
