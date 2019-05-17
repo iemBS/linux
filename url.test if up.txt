@@ -1,0 +1,7 @@
+Test if URL Works
+Preconditions: 
+  - Assume we are checking the http://www.google.com URL
+Main Success Scenario: 
+  1. Run in terminal window to see if URL comes up:
+       curl -Is http://www.google.com | head -n 1
+  2. "HTTP/1.1 200 OK" result shows it is ok. 
