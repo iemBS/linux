@@ -6,7 +6,9 @@ Explain Standard Folder Hierarchy
 - /boot contains files needed to start up the system, including the Linux kernel, a RAM disk image and bootloader configuration files.
 - /dev contains all device files, which are not regular files but instead refer to various hardware devices on the system, including hard drives.
 - /etc contains system-global configuration files, which affect the system's behavior for all users.
-- /home home sweet home, this is the place for users' home directories.
+- /home home sweet home, this is the place for users' home directories. 
+- /home/[user home directory] is a user's home directory. The dir name is the same as their login. 
+    - By default, there is nothing in the user's home directory. 
 - /lib contains very important dynamic libraries and kernel modules
 - /media is intended as a mount point for external devices, such as hard drives or removable media (floppies, CDs, DVDs).
 - /mnt is also a place for mount points, but dedicated specifically to "temporarily mounted" devices, such as network filesystems.
