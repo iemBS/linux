@@ -1,3 +1,7 @@
 Install Empathy Chat
 Main Success Scenario:
-  1. Run "sudo apt-get install empathy" in terminal window
+  1. Confirm app is not installed
+       apt-cache policy "thunderbird"
+  2. See result of check
+       N: Unable to locate package audacity
+  3. Run "sudo apt-get install empathy" in terminal window
