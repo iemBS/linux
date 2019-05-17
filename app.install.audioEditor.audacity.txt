@@ -1,3 +1,7 @@
 Install Audacity Sound Editor
 Main Success Scenario: 
-  1. Run "sudo apt-get install audacity" in terminal window
+  1. Confirm not already installed
+       apt-cache policy "audacity"
+  2. See result of the check
+       N: Unable to locate package audacity
+  3. Run "sudo apt-get install audacity" in terminal window
