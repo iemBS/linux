@@ -1,0 +1,10 @@
+Clean Directories
+Main Success Scenario: 
+  1. Remove unneeded downloads in /var/cache/apt/archives
+  2. Remove unneeded log files or reduce log file size
+  3. Use "fsck" to construct original files from thosefiles in "lost+found"
+  4. Empty trash bin
+       ~/.local/share/Trash 
+       /root/.local/share/Trash
+  5. Look for back ups gone wrong. 
+       
