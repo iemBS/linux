@@ -1,0 +1,17 @@
+Purge Text from Repository History in Git
+Preconditions:
+  - Download BFG from https://rtyley.github.io/bfg-repo-cleaner/ 
+  - Assume BFG is named bfg-1.13.0.jar
+  - Assume the below is the repository location:
+         C:\GitHub_repository\pascalCode\.git
+Main Success Scenario: 
+- Go to folder where BFG is
+- create "passwords.txt" file in same folder
+- put in "passwords.txt" file single instance of text to remove
+- Run below command
+      java -jar bfg-1.13.0.jar --replace-text passwords.txt  C:\GitHub_repository\pascalCode\.git
+- Open GIT bash to same folder that BFG and passwords.txt is in
+- Run below command to do some cleanup. 
+   $ git reflog expire --expire=now --all && git gc --prune=now --aggressive
+- Run below command to push changes from local computer to repository on gitHub.com
+   $git push
