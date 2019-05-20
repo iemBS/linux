@@ -1,3 +1,4 @@
+- general good ones here https://lifehacker.com/a-command-line-primer-for-beginners-5633909
 - app.find
 - app.find.driver
 - app.currentlyRunning
