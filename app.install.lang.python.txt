@@ -1,1 +1,10 @@
-https://pip.pypa.io/en/stable/installing/
+Install Python Language
+Preconditions:
+  - Guidance from https://pip.pypa.io/en/stable/installing/
+Main Success Scenraio:
+  1. Run 
+        curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  2. Run 
+        python get-pip.py
+
+
