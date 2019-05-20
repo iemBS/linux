@@ -2,16 +2,22 @@ Install Git
 Preconditions: 
   - connected to internet
 Main Success Scenario: 
-  1. Open a terminal window. 
-  2. Copy & paste the following into the terminal window and hit Return. You may be prompted to enter your password.
+  1. Download Git Bash from https://git-scm.com/download
+  2. Install Git Bash.
+  3. Open a terminal window. 
+  4. Copy & paste the following into the terminal window and hit Return. You may be prompted to enter your password.
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install git
-  3. Install GitHub UI
+  5. Install GitHub UI
        https://www.gitkraken.com/
-  4. Need to configure client git to work with cloud git. 
+  6. Need to configure client git to work with cloud git. 
 Alternatives:
-  3a. Want to install another client UI
-    3a1. see options at https://git-scm.com/download/gui/linux
+  1a. Download slow or timing out due to browser
+    1a1. Try using a different browser
+  1b. Download slow or timing out due to network connection
+    1b1. Try using another network connection. 
+  4a. Want to install another client UI
+    4a1. see options at https://git-scm.com/download/gui/linux
   
 
