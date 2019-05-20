@@ -1,0 +1,6 @@
+See Repo Traffic
+Preconditions: 
+  - Used guidance from https://help.github.com/en/articles/viewing-traffic-to-a-repository
+Main Success Scenario:
+  1. Visit graffic page for Repository. 
+         https://github.com/[account owner of repo]/[rep name]/graphs/traffic
