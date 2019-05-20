@@ -10,5 +10,8 @@ Main Success Scenario:
   3. Install GitHub UI
        https://www.gitkraken.com/
   4. Need to configure client git to work with cloud git. 
+Alternatives:
+  3a. Want to install another client UI
+    3a1. see options at https://git-scm.com/download/gui/linux
   
 
