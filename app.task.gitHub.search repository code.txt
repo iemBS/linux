@@ -1,0 +1,10 @@
+Search Repository Code in GitHub
+Preconditions:
+  - Searching your repository
+  - Assume GitHub account name is "CheeseUser"
+  - Assume repository in GitHub is called "CheeseRepo". 
+  - Assume text you are looking for in code is "CheeseText"
+Main Success Scenario:
+  1. Paste this into a browser
+       https://github.com/CheeseUser/CheeseRepo/search?q=CheeseText&type=Code
+  3. See current code and past commits that "CheeseText" is in
