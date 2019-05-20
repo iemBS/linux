@@ -1,0 +1,24 @@
+Sync existing Repository with new Client
+Preconditions:
+  - Guidance from https://help.github.com/en/articles/cloning-a-repository
+  - Remote repository already exists in GitHub. 
+  - Assume here this is the cloned URL 
+       https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  - Assume below is the client location to close the repository to
+       .\GitHub_repository\YOUR-REPOSITORY
+Main Success Scenario:
+  1. Go to repository in GitHub.com
+  2. Click "Clone or download" button under the repository name 
+  3. In "Clone with HTTPS" section, copy the clone URL
+  4. Open Git Bash
+  5. Change the current working directory to the location where you want the cloned directory to be made.
+  6. Type "git clone" and paste the URL you copied.
+       git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  7. Press "Enter" key
+  8. Result will show (below is an example)
+      $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+      > Cloning into `Spoon-Knife`...
+      > remote: Counting objects: 10, done.
+      > remote: Compressing objects: 100% (8/8), done.
+      > remove: Total 10 (delta 1), reused 10 (delta 1)
+      > Unpacking objects: 100% (10/10), done.
