@@ -1,0 +1,18 @@
+- app.find
+- app.find.driver
+- app.currentlyRunning
+- app.calc
+- backup.file
+- app.update.read
+- file.find.fileContent
+- file.find.7zipContent
+- find in email
+- network.connect.ssh
+-file.dir.create
+-file.dir.rename
+-file.move
+-file.folder.move 
+-file.unZip
+-file.type
+-file.folder.hierarchy
+-network.url.check
