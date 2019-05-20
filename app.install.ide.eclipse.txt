@@ -1,5 +1,7 @@
 Install Eclipse IDE
 Preconditions: 
   - Need for Java coding.
+  - Works well for Python coding
 Main Success Scenario:
   1. Download from https://www.eclipse.org/downloads/
+  2. Install PyDev (Python IDE) on top of Eclipse
