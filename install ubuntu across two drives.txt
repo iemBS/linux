@@ -1,0 +1,5 @@
+Install Ubuntu across two drives
+Note:
+  - Guidance from https://askubuntu.com/questions/511085/installing-ubuntu-across-multiple-hard-drives
+Main Success Scenario:
+  1. [need to fill]
