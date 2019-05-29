@@ -8,12 +8,12 @@ Main Success Scenario:
        ls
 Alternatives:
   1a. "cheese" directory already exists in current folder
-   1a1. [need to complete]
+   1a1. [xxx:need to complete]
   1b. create in a specific child folder
-    1b1. [need to complete]
+    1b1. [xxx:need to complete]
   1c. create in a sibling folder
-    1c1. [need to complete]
+    1c1. [xxx:need to complete]
   1d. create in a parent folder
-    1d1. [need to complete]
+    1d1. [xxx:need to complete]
   2a. list contents of non-current folder
-    2a1 [need to complete]
+    2a1 [xxx:need to complete]
