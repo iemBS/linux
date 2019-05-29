@@ -4,7 +4,7 @@ Preconditions:
 Main Success Scenario:
   1. Run following command in terminal window
        rmdir cheese
-  2.  [need to complete]
+  2.  [xxx: need to complete]
   3 run following command to see that the directory is gone
        ls
 Alternatives:
