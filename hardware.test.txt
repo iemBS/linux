@@ -4,7 +4,7 @@ Preconditions:
   - software called "checkbox" on command line
 Main Success Scenario: 
   1. sudo apt-get install checkbox
-  2. [need to complete]
+  2. [xxx: need to complete]
 Alternatives:
   1a. "checkbox" not found
     1a1. Result message returned: 
