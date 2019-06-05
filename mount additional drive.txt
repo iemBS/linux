@@ -1,0 +1,41 @@
+Mount Drive
+Note:
+  - Guidance from https://askubuntu.com/questions/125257/how-do-i-add-an-additional-hard-drive
+  - Guidance from https://help.ubuntu.com/community/InstallingANewHardDrive
+Preconditions:
+  - Drive is already installed on machine
+  - Assume new partition is /dev/sdb1
+  - Use SSD disk for OS to make OS faster
+  - Use HDD for files because more reliable than SSD
+  - "hdd" folder & access point for addition drive is at the top level
+  - Using Nano file editor
+  - Normal user granted ability to create files on new drive is "ckent"
+Main Success Scenario:
+  1. Open user friendly tool
+       sudo gparted
+  2. In tool, make one single partition of "ext4" type
+  3. Show list of drives and partitions on drives
+       sudio fdisk -l
+  4. display results to screen (example below)
+        Disk /dev/sda: 250.1 GB, 250059350016 bytes
+        ....
+
+        Disk /dev/sdb: 2000.4 GB, 2000398934016 bytes
+        255 heads, 63 sectors/track, 243201 cylinders
+        Units = cylinders of 16065 * 512 = 8225280 bytes
+        Sector size (logical/physical): 512 bytes / 4096 bytes
+        I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+        Disk identifier: 0x000814e3
+
+           Device Boot      Start         End      Blocks   Id  Syste
+        /dev/sdb1               1      243201  1953512001   83  Linux
+  5. create mount point
+       sudo mkdir /hdd
+  6. Edit /etc/fstab with root permissions
+       sudo nano -Bw /etc/fstab
+  7. Add the following to the end of the file
+       /dev/sdb1    /hdd    ext4    defaults    0    0
+  8. Mount partition
+       sudo mount /hdd
+  9. Allow normal users to create file on the new drive
+       sudo chown -R ckent:ckent /hdd
