@@ -1,0 +1,5 @@
+Install Java on Ubuntu Linux
+Note:
+  -guidance from https://linuxize.com/post/install-java-on-ubuntu-18-04/#installing-the-default-openjdk-java-11
+Main Success Scenario:
+  1.xxx
