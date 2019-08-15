@@ -1,1 +1,7 @@
-https://atom.io/
+Install Atom Text Editor
+Notes:
+  -https://atom.io/
+Main Success Scenario:
+  1. sudo add-apt-repository ppa:webupd8team/atom
+  2. sudo apt-get update
+  3. sudo apt-get install atom
